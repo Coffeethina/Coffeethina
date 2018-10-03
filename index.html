@@ -19,9 +19,26 @@
       </div>
       <button class="GrindButton">Grind</button>
     </div>
+
+    <div class="resultSection"></div>
     <button>Brew</button>
 
 </div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+<script>
+  $(function() {
+    $('.resultSection').hide()
+
+    var GrindButton = function () {
+      $('.inputs').append('<input></input>')
+    }
+
+    $('.GrindButton').click(GrindButton)
+  })
+</script>
+
   </body>
 
 </html>
