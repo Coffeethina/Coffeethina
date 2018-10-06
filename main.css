@@ -47,3 +47,11 @@ button {
   border-color: rgb(116,45,210);
   color: rgb(116,45,210);
 }
+
+.resultSection {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+}
